@@ -1,18 +1,8 @@
-(setq auto-mode-alist
-      (append '(("SConstruct\\'" . python-mode)
-                ("SConscript\\'" . python-mode))
-              auto-mode-alist))
+(setq interpreter-mode-alist
+      (cons '("python" . python-mode) interpreter-mode-alist))
 
-(require-package 'pip-requirements)
-
-(when (maybe-require-package 'anaconda-mode)
-  (after-load 'python
-    (add-hook 'python-mode-hook 'anaconda-mode)
-    (add-hook 'python-mode-hook 'anaconda-eldoc-mode))
-  (when (maybe-require-package 'company-anaconda)
-    (after-load 'company
-      (add-hook 'python-mode-hook
-                (lambda () (sanityinc/local-push-company-backend 'company-anaconda))))))
-
+;; run command `pip install jedi flake8 importmagic` in shell,
+;; or just check https://github.com/jorgenschaefer/elpy
+(elpy-enable)
 
 (provide 'init-python-mode)

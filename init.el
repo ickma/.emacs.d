@@ -1,8 +1,10 @@
+;;; package --- Summary
+;;; Commentary:
 ;; -*- lexical-binding: t -*-
 
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
-
+;;; Code:
 (let ((minver "24.1"))
   (when (version< emacs-version minver)
     (error "Your Emacs is too old -- this config requires v%s or higher" minver)))
@@ -14,6 +16,13 @@
 
 (defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
 (defconst *is-a-mac* (eq system-type 'darwin))
+
+;; mobileorg settings
+(setq org-directory "~/org")
+(setq org-mobile-inbox-for-pull "~/org/from-mobile.org")
+(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+(setq org-mobile-files '("~/org/to-mobile"))
+
 
 ;;----------------------------------------------------------------------------
 ;; Adjust garbage collection thresholds during startup, and thereafter
@@ -171,3 +180,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+;;; init.el ends here
