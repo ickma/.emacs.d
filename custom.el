@@ -12,15 +12,14 @@
  '(custom-safe-themes
    (quote
     ("ff7625ad8aa2615eae96d6b4469fcc7d3d20b2e1ebc63b761a349bebbb9d23cb" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" default)))
- '(default-input-method "rfc1345")
- '(default-text-scale-mode t nil (default-text-scale))
  '(fci-rule-color "#424242")
  '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
- '(message-default-charset (quote iso-8859-1))
- '(org-agenda-files (quote ("~/org/to-mobile/mytodo.org")))
+ '(org-agenda-files
+   (quote
+    ("~/Dropbox/Apps/org/to-mobile/mytodo.org" "~/Dropbox/Apps/org/to-mobile/new-words.org")))
  '(package-selected-packages
    (quote
-    (elpy pyvenv dracula-theme uptimes regex-tool osx-location dsvn htmlize lua-mode gnuplot flycheck-ledger ledger-mode origami flycheck-clojure cider elein cljsbuild-mode clojure-mode slime-company hippie-expand-slime slime cask-mode flycheck-package highlight-quoted macrostep cl-lib-highlight aggressive-indent redshank immortal-scratch auto-compile ipretty elisp-slime-nav paredit-everywhere paredit terraform-mode dockerfile-mode docker yaml-mode toml-mode racer rust-mode sql-indent projectile-rails bundler goto-gem yari robe ruby-compilation inf-ruby rspec-mode ruby-hash-syntax flycheck-elm elm-mode hayoo hindent intero haskell-mode company-anaconda anaconda-mode pip-requirements css-eldoc skewer-less less-css-mode scss-mode sass-mode rainbow-mode tagedit tidy org-pomodoro writeroom-mode org-cliplink org-mac-iCal grab-mac-link org-fstree smarty-mode php-mode add-node-modules-path skewer-mode js-comint prettier-js typescript-mode coffee-mode js2-mode json-mode erlang csv-nav csv-mode markdown-mode textile-mode cmd-to-echo alert projectile magit-gh-pulls github-issues github-clone bug-reference-github yagist git-messenger magit git-timemachine gitconfig-mode gitignore-mode git-blamed vc-darcs darcsum browse-at-remote fill-column-indicator whitespace-cleanup-mode guide-key highlight-escape-sequences whole-line-or-region move-dup page-break-lines multiple-cursors avy expand-region browse-kill-ring symbol-overlay undo-tree rainbow-delimiters nlinum list-unicode-display unfill mmm-mode default-text-scale session switch-window company-quickhelp company counsel ivy-historian ivy smex flycheck-color-mode-line flycheck ibuffer-vc anzu diff-hl dired-sort dired+ disable-mouse color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized command-log-mode scratch diminish project-local-variables wgrep exec-path-from-shell fullframe)))
+    (dracula-theme uptimes elpy yagist writeroom-mode whole-line-or-region whitespace-cleanup-mode wgrep vc-darcs unfill undo-tree typescript-mode tidy textile-mode tagedit symbol-overlay switch-window smex smarty-mode skewer-less session scss-mode scratch sass-mode rainbow-mode rainbow-delimiters projectile project-local-variables prettier-js php-mode page-break-lines org-pomodoro org-mac-iCal org-fstree org-cliplink nlinum multiple-cursors move-dup mmm-mode markdown-mode magit-gh-pulls list-unicode-display less-css-mode json-mode js-comint ivy-historian ibuffer-vc highlight-escape-sequences guide-key grab-mac-link gitignore-mode github-issues github-clone gitconfig-mode git-timemachine git-messenger git-blamed fullframe flycheck-color-mode-line fill-column-indicator expand-region exec-path-from-shell erlang disable-mouse dired-sort dired+ diminish diff-hl default-text-scale darcsum csv-nav csv-mode css-eldoc counsel company-quickhelp command-log-mode color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized coffee-mode cmd-to-echo bug-reference-github browse-kill-ring browse-at-remote avy anzu add-node-modules-path)))
  '(session-use-package t nil (session))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map

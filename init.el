@@ -18,10 +18,10 @@
 (defconst *is-a-mac* (eq system-type 'darwin))
 
 ;; mobileorg settings
-(setq org-directory "~/org")
-(setq org-mobile-inbox-for-pull "~/org/from-mobile.org")
+(setq org-directory "~/Dropbox/Apps/org")
+(setq org-mobile-inbox-for-pull "~/Dropbox/Apps/org/from-mobile.org")
 (setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
-(setq org-mobile-files '("~/org/to-mobile"))
+(setq org-mobile-files '("~/Dropbox/Apps/org/to-mobile"))
 
 
 ;;----------------------------------------------------------------------------
